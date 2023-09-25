@@ -1,0 +1,14 @@
+{
+  "name": "simple-tdl-api",
+  "version": "1.0.0",
+  "description": "Simple todo-list API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dominik Samsel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
