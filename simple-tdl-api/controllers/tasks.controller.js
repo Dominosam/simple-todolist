@@ -8,6 +8,7 @@ class TasksController {
 
     async getAllTasks(_req, res, next) {
         try {
+            debugger;
             const tasks = await TasksService.getAllTasks();
             return res.status(StatusCodes.OK).json(tasks);
         } catch(err) {

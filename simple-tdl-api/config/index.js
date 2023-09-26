@@ -8,7 +8,7 @@ const config = {
         port: process.env.PORT || 3000,
     
         mongoDb: {
-            connectionString: process.env.DB_CONNECTIONSTRING || 'mongodb+srv://admin:VZybAaIOIpdKkcCN@trainingcluster.myu3led.mongodb.net/?retryWrites=true&w=majority',
+            connectionString: process.env.DB_CONNECTIONSTRING || 'mongodb+srv://admin:VZybAaIOIpdKkcCN@trainingcluster.myu3led.mongodb.net/simple-tdl-db?retryWrites=true&w=majority',
             options: {
                 useNewUrlParser: process.env.DB_USENEWURLPARSER === 'true',
                 useUnifiedTopology: process.env.DB_USEUNIFIEDTOPOLOGY === 'true',

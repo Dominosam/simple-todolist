@@ -6,7 +6,9 @@ class TasksService {
     }
 
     async getAllTasks() {
-        return await Tasks.find().exec();
+        const allTasks = await Tasks.find().exec();
+        debugger;
+        return allTasks;
     }
 }
 
