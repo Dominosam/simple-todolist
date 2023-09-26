@@ -1,14 +1,14 @@
 # Node.js
-*/node_modules/
-*/npm-debug.log*
-*/.env
+node_modules/
+npm-debug.log*
+.env
 
 # Express.js
-*/simple-tdl-api/logs/
-*/*.log
+simple-tdl-api/logs/
+*.log
 
 # React
-*/build
-*/dist
-*/node_modules
-*/.DS_Store
+build
+dist
+node_modules
+.DS_Store
